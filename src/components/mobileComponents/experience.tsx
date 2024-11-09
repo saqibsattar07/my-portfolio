@@ -1,6 +1,6 @@
 const MobileExperience = () => {
   // My Experience Here
-  let experience = [
+  const experience = [
     {
       companyName: "CodSoft",
       dateStart: "April 2023",

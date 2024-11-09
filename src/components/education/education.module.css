@@ -1,0 +1,67 @@
+.card {
+  height: 85vh;
+  overflow-y: auto;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.education-item {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .education-item {
+    flex-wrap: nowrap;
+  }
+}
+
+.date-container {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .date-container {
+    width: 16rem;
+    margin-bottom: 0;
+  }
+}
+
+.field-title {
+  font-weight: 600;
+  color: #374151;
+  text-transform: uppercase;
+}
+
+.date {
+  margin-top: 0.25rem;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.education-details {
+  flex-grow: 1;
+}
+
+.college-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #111827;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.details {
+  line-height: 1.625;
+  color: #4b5563;
+}

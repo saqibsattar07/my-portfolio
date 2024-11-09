@@ -2,7 +2,7 @@ import { FaCheckSquare } from "react-icons/fa";
 
 const MobileSkills = () => {
   // My Skills Here
-  let skills = [
+  const skills = [
     {
       name: "HTML",
       percentage: 90,

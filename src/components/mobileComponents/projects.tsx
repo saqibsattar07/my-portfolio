@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const MobileProjects = () => {
   // My Projects Here
-  let projects = [
+  const projects = [
     {
       name: "Ecommerce Website",
       image: "Divisima.jpg",

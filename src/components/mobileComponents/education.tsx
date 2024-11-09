@@ -1,6 +1,6 @@
 const MobileEducation = () => {
   // My Education Here
-  let education = [
+  const education = [
     {
       collegeName: "Government Pakistan Degree College Saeedpur",
       date: "April 2022",

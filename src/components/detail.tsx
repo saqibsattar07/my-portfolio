@@ -1,9 +1,9 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import Education from "./education";
-import Experience from "./experience";
-import Skills from "./skills";
-import Projects from "./projects";
-import Contact from "./contact";
+import Education from "./education/education";
+import Experience from "./experience/experience";
+import Skills from "./skills/skills";
+import Projects from "./projects/projects";
+import Contact from "./contact/contact";
 
 export function Detail() {
   return (

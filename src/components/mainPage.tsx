@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // my components
-import { Sidebar } from "./sidebar";
+import { Sidebar } from "./sidebar/sidebar";
 import { Detail } from "./detail";
 import MobileCard from "./mobileComponents/card";
 import MobileSkills from "./mobileComponents/skills";
