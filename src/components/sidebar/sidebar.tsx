@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 import Typewriter from "typewriter-effect";
 import { FaLinkedin, FaCloudDownloadAlt, FaGithubSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import styles from "./Sidebar.module.css";
+import styles from "./sidebar.module.css";
 
 export function Sidebar() {
   return (
